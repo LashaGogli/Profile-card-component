@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.container{
+
+    max-width: 1440px;
+    width: 100%;
+    height: 720px;
+    background-color: #19A1AE;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+}
+
+.ovalCover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.ovalCover2{
+    position: absolute;
+    top: 376px;
+    left: 690px;
+    
+}
+.secondDiv{
+    width: 350px;
+    height: 374px;
+    position: absolute;
+    top: 173px;
+    left: 545px;
+    border-radius: 15px;
+}
+.secondDivInside{
+    width: 350px;
+    height: 140px;
+    background-color: #41CBD3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+.group13{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+.thirdDivInside{
+    width: 350px;
+    height: 234px;
+    position: relative;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.oval{
+    position: absolute;
+    top: -51px;
+    left: 127px;
+  
+}
+h1{
+    position: absolute;
+    top: 66px;
+    left: 108px;
+    font-size: 18px;
+    width: 104px;
+    height: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    font-family: "Kumbh Sans";
+}
+h2{
+    position: absolute;
+    top: 66px;
+    left: 220.5px;
+    font-size: 18px;
+    width: 22px;
+    height: 18px;
+    font-weight: 400;
+    color: #6B7082;
+    font-family: "Kumbh Sans";
+
+}
+.span1{
+    position: absolute;
+    top: 100px;
+    left: 148px;
+    font-size: 14px;
+    width: 22px;
+    height: 18px;
+    font-weight: 400;
+    color: #6B7082;
+    font-family: "Kumbh Sans";
+}
+.rectangle{
+    position: absolute;
+    top: 145px;
+    width: 350px;
+    height: 1px;
+
+}
+.parentDiv{
+    max-width: 350px;
+    width: 100%;
+    height: 88px;
+    
+    position: absolute;
+    top: 146px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.boloDiv{
+    width: 60px;
+    height: 50px;
+    
+    
+    
+}
+.lastP{
+    text-align: center;
+    font-size: 18px;
+    width: 35px;
+    height: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    font-family: "Kumbh Sans";
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+.sulboloP{
+    font-size: 10px;
+    width: 56px;
+    height: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    font-family: "Kumbh Sans";
+    text-align: center;
+    letter-spacing: 1.5px;
+    
+    
+}
+
+@media(max-width:375px){
+    .container{
+        height: 667px;
+        
+        
+    }
+    .secondDiv{
+        width: 326px;
+        height: 374px;
+        position: absolute;
+        top: 173px;
+        left: 12px;
+        align-content: center;
+        border-radius: 15px;
+    }
+
+    .ovalCover2{
+        position: absolute;
+        left: 150px;
+        top: 322px;
+    
+    }
+    .ovalCover{
+        position: absolute;
+        left: -500px;
+        
+    
+    }
+
+
+
+
+}
